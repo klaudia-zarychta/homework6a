@@ -1,0 +1,16 @@
+com/infoshareacademy/web/CourseServlet.class
+com/infoshareacademy/dao/TeacherDao.class
+com/infoshareacademy/dao/StudentDao.class
+com/infoshareacademy/dao/AddressDao.class
+com/infoshareacademy/web/TeacherServlet.class
+com/infoshareacademy/model/Student.class
+com/infoshareacademy/model/Teacher.class
+com/infoshareacademy/model/CourseSummary.class
+com/infoshareacademy/dao/CourseDao.class
+com/infoshareacademy/web/StudentServlet.class
+com/infoshareacademy/model/Course.class
+com/infoshareacademy/model/Computer.class
+com/infoshareacademy/web/ComputerServlet.class
+com/infoshareacademy/web/AddressServlet.class
+com/infoshareacademy/model/Address.class
+com/infoshareacademy/dao/ComputerDao.class
