@@ -4,7 +4,6 @@ import com.infoshareacademy.dao.CourseDao;
 import com.infoshareacademy.dao.TeacherDao;
 import com.infoshareacademy.model.Course;
 import com.infoshareacademy.model.CourseSummary;
-import com.infoshareacademy.model.Student;
 import com.infoshareacademy.model.Teacher;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,8 +17,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.transaction.Transactional;
 import java.io.IOException;
-import java.time.LocalDate;
-import java.time.ZoneId;
 import java.util.Arrays;
 import java.util.List;
 
@@ -42,7 +39,7 @@ public class TeacherServlet extends HttpServlet {
         // Test data
 
         // Courses
-        Course course1 = new Course("JJDD6");
+        Course course1 = new Course("JJDD7");
         courseDao.save(course1);
 
         Course course2 = new Course("JJDZ6");
@@ -51,19 +48,19 @@ public class TeacherServlet extends HttpServlet {
         Course course3 = new Course("JJFD9");
         courseDao.save(course3);
 
-        Teacher t1= new Teacher("12345678911","Jan",
+        Teacher t1 = new Teacher("12345678911", "Jan",
                 "Kowalski",
-                 Arrays.asList(course1, course2, course3));
+                Arrays.asList(course1));
         teacherDao.save(t1);
 
-        Teacher t2 = new Teacher("11111111111","Anna",
+        Teacher t2 = new Teacher("11111111111", "Ola",
                 "Nowak",
                 Arrays.asList(course1, course2, course3));
         teacherDao.save(t2);
 
-        Teacher t3 = new Teacher("22222222222","Filip",
+        Teacher t3 = new Teacher("22222222222", "Filip",
                 "Ptak",
-                Arrays.asList(course1, course2, course3))   ;
+                Arrays.asList(course1, course2, course3));
         teacherDao.save(t3);
 
         course1.setTeachers(Arrays.asList(t1));

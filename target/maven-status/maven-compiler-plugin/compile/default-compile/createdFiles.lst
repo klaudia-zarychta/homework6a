@@ -1,6 +1,8 @@
 com/infoshareacademy/web/CourseServlet.class
 com/infoshareacademy/dao/TeacherDao.class
 com/infoshareacademy/dao/StudentDao.class
+com/infoshareacademy/dao/GenericDao.class
+com/infoshareacademy/dao/TestGenericDao.class
 com/infoshareacademy/dao/AddressDao.class
 com/infoshareacademy/web/TeacherServlet.class
 com/infoshareacademy/model/Student.class

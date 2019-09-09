@@ -3,6 +3,7 @@
 /home/kzarychta/Desktop/java-course/jjdd7-materialy/homeworks/homework_6a/src/main/java/com/infoshareacademy/model/Student.java
 /home/kzarychta/Desktop/java-course/jjdd7-materialy/homeworks/homework_6a/src/main/java/com/infoshareacademy/model/CourseSummary.java
 /home/kzarychta/Desktop/java-course/jjdd7-materialy/homeworks/homework_6a/src/main/java/com/infoshareacademy/dao/StudentDao.java
+/home/kzarychta/Desktop/java-course/jjdd7-materialy/homeworks/homework_6a/src/main/java/com/infoshareacademy/dao/GenericDao.java
 /home/kzarychta/Desktop/java-course/jjdd7-materialy/homeworks/homework_6a/src/main/java/com/infoshareacademy/web/StudentServlet.java
 /home/kzarychta/Desktop/java-course/jjdd7-materialy/homeworks/homework_6a/src/main/java/com/infoshareacademy/dao/AddressDao.java
 /home/kzarychta/Desktop/java-course/jjdd7-materialy/homeworks/homework_6a/src/main/java/com/infoshareacademy/dao/CourseDao.java
@@ -13,4 +14,5 @@
 /home/kzarychta/Desktop/java-course/jjdd7-materialy/homeworks/homework_6a/src/main/java/com/infoshareacademy/model/Computer.java
 /home/kzarychta/Desktop/java-course/jjdd7-materialy/homeworks/homework_6a/src/main/java/com/infoshareacademy/model/Address.java
 /home/kzarychta/Desktop/java-course/jjdd7-materialy/homeworks/homework_6a/src/main/java/com/infoshareacademy/web/TeacherServlet.java
+/home/kzarychta/Desktop/java-course/jjdd7-materialy/homeworks/homework_6a/src/main/java/com/infoshareacademy/dao/TestGenericDao.java
 /home/kzarychta/Desktop/java-course/jjdd7-materialy/homeworks/homework_6a/src/main/java/com/infoshareacademy/dao/TeacherDao.java
